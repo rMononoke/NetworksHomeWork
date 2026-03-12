@@ -1,5 +1,5 @@
 from colorama import Fore, Style, init
-from config import APP_NAME, APP_VERSION, DEFAULT_IP
+from config import APP_NAME, APP_VERSION, DEFAULT_IP 
 from utils import validate_ip, get_ip_info, format_result
 
 init(autoreset=True)
