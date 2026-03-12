@@ -17,4 +17,11 @@ def get_ip_info(ip_obj):
     }
 
 
-
+def format_result(ip_obj, info):
+    return (
+        f"IP address: {ip_obj}\n"
+        f"Version: IPv{info['version']}\n"
+        f"Private: {info['is_private']}\n"
+        f"Global: {info['is_global']}\n"
+        f"Loopback: {info['is_loopback']}"
+    )
