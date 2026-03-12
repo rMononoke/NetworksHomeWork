@@ -1,3 +1,0 @@
-APP_NAME = "IP Network Info"
-APP_VERSION = "1.1"
-DEFAULT_IP = "8.8.8.8"

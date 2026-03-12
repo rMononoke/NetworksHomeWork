@@ -1,6 +1,9 @@
 from colorama import Fore, Style, init
-from config import APP_NAME, APP_VERSION, DEFAULT_IP
 import ipaddress
+
+APP_NAME = "IP Network Info"
+APP_VERSION = "1.1"
+DEFAULT_IP = "8.8.8.8"
 
 def validate_ip(ip_text):
     try:
