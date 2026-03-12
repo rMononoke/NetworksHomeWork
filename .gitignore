@@ -1,0 +1,67 @@
+# Общее
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи и базы данных
+*.sql
+*.sqlite
+*.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Директории зависимостей
+node_modules/
+vendor/
+jspm_packages/
+
+# Директории сборки
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Файлы конфигурации IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Файлы с секретами
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets/
+
+# Тесты и покрытие кода
+coverage/
+.nyc_output/
+*.lcov
+*.lcov.info
+
+# Временные файлы
+*.bak
+*.orig
+*.old
+tmp/
+temp/
